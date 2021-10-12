@@ -36,7 +36,7 @@ container_client = blob_service_client.create_container(container_name)
 
 Create 
 
-```
+```python
 # Create a local directory to hold blob data
 local_path = "./data"
 os.mkdir(local_path)
@@ -85,7 +85,7 @@ with open(download_file_path, "wb") as download_file:
 
 Delete
 
-```
+```python
 # Clean up
 print("\nPress the Enter key to begin clean up")
 input()
